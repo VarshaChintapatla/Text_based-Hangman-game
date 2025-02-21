@@ -36,7 +36,7 @@ while attempts > 0 and "_" in word_display:
 
     print(" ".join(word_display))
 
-# Game result
+
 if "_" not in word_display:
     print("\nCongratulations! You guessed the word:", word)
 else:
